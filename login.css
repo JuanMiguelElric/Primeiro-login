@@ -1,0 +1,115 @@
+body
+{
+   background-image:  linear-gradient( to right, blue,rgb(114, 114, 146),rgb(179, 157, 157));
+   margin: 5px;
+
+}
+h1
+{  
+   color:chartreuse;
+   font-size: 40px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+   text-align: center;
+}
+#quadrado
+{
+   position: absolute;
+   left: 500px;
+   top: 110px;
+   width: 300px;
+   height: 400px;
+   background-image: linear-gradient(to right, black,black);
+   margin:50px;
+}
+
+
+h2
+{
+   color: white;
+   text-align: center;
+   font-size: 37px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#inptex
+{
+   position: absolute;
+   top: 125px;
+   left: 65px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: medium;
+   width: 170px;
+   height: 27px;
+}
+#inppass
+{
+   position: absolute;
+   top: 175px;px;
+   left: 65px;
+   width:170px ;
+   height: 27px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:medium;
+}
+#botao
+{
+   background-image: radial-gradient(yellow,rgb(226, 226, 58),rgb(179, 179, 106));
+   position: absolute;
+   top:240px;
+   left: 84px;
+   width: 140px;
+   height: 40px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: medium ;
+}
+.posicaoita
+{
+   width: 160px;
+   height: 160px;
+   left: 70px;
+   transform:translatey(0px);
+   animation: float 5s ease-in-out infinite;
+
+}
+.posipolan
+{
+   position:absolute;
+   top: 315px; ;
+   height: 140px;
+   width: 175px;
+   left: 0px;
+   transform: translate(0px);
+   animation: float 5s ease-in-out infinite;
+
+}
+.posiuss
+{
+   position: absolute;
+   top:125px;
+   height:140px;
+   width: 175px;
+   right:0px;
+   transform: translate(0px);
+   animation:float 5s ease-in-out infinite;
+}
+.posiucran
+{
+   position:absolute;
+   top: 315px;
+   height:140px;
+   width: 130px;
+   right: 15px;
+   transform: translateY(2px);
+   animation: float 5s ease-in-out infinite;
+}
+@keyframes float
+{
+   0%{
+      transform: translate(0px);
+   }
+   50%{transform: translate(15px);
+   }
+   100%{tranform:translate(30px)}
+}
